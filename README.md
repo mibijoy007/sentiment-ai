@@ -5,3 +5,20 @@ For creating this sentiment analysis application, I'll be using the Watson Embed
 Python 3.11.7 was used
 
 This is a part of the course "Developing AI Applications with Python and Flask" By IBM on Coursera
+
+# To start:
+
+Yes you have to get the access from the IBM website:🙂
+[IBM]
+(https://www.ibm.com/products/natural-language-processing?cm_sp=ibmdev-_-developer-articles-_-product)
+
+Clone the project. Then:
+```
+$ pip install Flask requests 
+$ python server.py
+```
+
+Then try the running link you'll see the app
+
+
+
