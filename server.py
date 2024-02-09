@@ -4,8 +4,10 @@
 '''
 # Import Flask, render_template, request from the flask pramework package : TODO
 # Import the sentiment_analyzer function from the package created: TODO
+from flask import Flask
 
 #Initiate the flask app : TODO
+app= Flask(__name__)
 
 @app.route("/sentimentAnalyzer")
 def sent_analyzer():
@@ -26,3 +28,7 @@ def render_index_page():
 if __name__ == "__main__":
     ''' This functions executes the flask app and deploys it on localhost:5000
     '''#TODO
+
+
+
+
